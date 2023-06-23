@@ -1,0 +1,60 @@
+.fade:not(.show) {
+  opacity: 1; !important;
+}
+
+.slick-prev, .slick-next {
+  background-color: blue;
+  /*color:#003eff;*/
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.slick-prev {
+  left: 25px;
+}
+
+.slick-next {
+  right: 25px;
+}
+
+.slick-next::before, .slick-prev::before  {
+  font-size: 40px;
+  color: #FFFFFF;
+  opacity: 1;
+display: flex;
+  justify-content: center;
+}
+
+
+
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+  background-color: transparent;
+  color:#003eff;
+}
+
+.ui-icon-triangle-1-e {
+  background-position: -67px -16px;
+}
+
+.ui-icon-triangle-1-s {
+  background-position: -2px -16px;
+}
+
+.ui-icon {
+  background-image: url("images/ui-icons_ffffff_256x240.png");
+}
+
+.ui-accordion .ui-accordion-header {
+  fill: white;
+color: white;
+}
+
+.ui-state-hover .ui-icon{
+  background-image: url("images/ui-icons_ffffff_256x240.png");
+}
+
+/*.ui-state-active .ui-icon, .ui-button:active .ui-icon {*/
+/*  background-image: url("../images/arrow-up.svg");*/
+/*}*/
